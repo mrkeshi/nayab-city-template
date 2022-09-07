@@ -1,0 +1,56 @@
+.flex-wrapper {
+  justify-content: center;
+  display: flex;
+  flex-flow:wrap;
+}
+
+.single-chart {
+  text-align: center;
+  width: 130px;
+  height: 130px;
+  justify-content: space-around ;
+  margin: 15px;
+  span{
+    text-align: center;
+    font-family: IRANSans;
+    color: $graycolor;
+  }
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 0.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 0.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+
+
+.circular-chart.blue .circle {
+  stroke: $defultColor;
+}
+
+.percentage {
+  fill: white;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}

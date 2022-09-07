@@ -1,0 +1,47 @@
+footer{
+  background-color: $blackcolor;
+  min-height: 120px;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  padding-top: 40px;
+
+p{
+  border-top: 2px solid #7e7e7e;
+  margin: 0px;
+  color: #9a9a9a;
+  margin-top: 15px;
+  font-family: iransans-light;
+  font-size: 14px;
+padding-top: 10px;
+}
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .fa{
+      width: 25px;
+      height: 19px;
+      padding: 8px;
+      border-radius: 3px;
+      border: 1px solid #787878;
+      font-size: 18px;
+      color: white;
+      margin: 3px;
+      transition:background-color 0.7s ease-in-out,border 0.7s ease-in-out;
+    &:hover{
+    background-color: $defultColor;
+      border: 1px solid $defultColor;
+    }
+    }
+  }
+
+}
+body > header > div > div > div > div > span{
+  color: white !important;
+}
+footer p{
+  color: white;
+}

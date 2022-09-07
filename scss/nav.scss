@@ -1,0 +1,105 @@
+a {
+  color: $blackcolor;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  margin-bottom: 30px;
+  transition: all 1.5s ease-in-out;
+  &:hover{
+    border-bottom-color: $defultColor;
+  }
+  background: $background;
+  border-bottom: 1.5px solid #dfdfdf;
+  width: 100%;
+  display: flex;
+  height: 80px;
+  align-items: center;
+  .navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-family: IRANSans;
+    margin: 25px auto;
+    .logo{position: relative;
+      top: 3px;
+      a{
+        font-family: IRANSans-bold;
+        margin-bottom: 3px;
+        font-size: 20px;
+        color:$blackcolor
+      }
+    }
+    ul {
+      .active {
+  color:$defultColor
+
+      }
+      li {
+    button{
+
+
+      position: relative;
+      left: 14px;
+      bottom: 0px;
+      cursor: pointer;
+      border: none;
+      background: #00A89D;
+      color: white;
+      border-radius: 3px;
+      transition: background-color 0.5s ease-in, opacity 1s ease-in-out;
+      padding: 4px;
+      font-family: IRANSans;
+      font-size: 13px;
+      &:hover{
+        background-color: darkcyan;
+      }
+
+
+    }
+
+        border-radius: 4px;
+        display: inline-block;
+.fa-search{
+  position: relative;
+
+  cursor: pointer;
+  transition:color 0.5s ease-in-out,font-size 0.5s ease-out ;
+  &:hover{
+    font-size: 22px;
+    color: $blackcolor;
+  }
+}
+        a {
+
+          padding: 5px 16px;
+          font-family: IRANSans-light;
+          font-size: 16px;
+          transition:border-bottom-width 1s ease;
+
+          &:hover{
+
+          }
+        }
+        .fa-search {
+          color: $defultColor;
+        }
+        a:nth-child(1){
+          transition: color 0.5s ease-in-out;
+
+          &:hover{
+            color:$defultColor;
+
+          }
+
+        }
+      }
+    }
+
+    width: 68%;
+  }
+}
